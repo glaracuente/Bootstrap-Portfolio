@@ -12,50 +12,68 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Gerardo Laracuente</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-            </ul>
-        </div>
+        <h1 class="navbar-brand bg-info text-white p-3">Gerardo Laracuente</h1>
+
+        <ul class="navbar-nav mr-auto ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link " href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>About Me</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="assets/images/gerry_pic.png" alt="about-me-pic">
+            </div>
+            <div class="col-md-9">
+                <p>Hello World. My name is Gerardo Laracuente, but everyone calls me Gerry. I've had an interest in
+                    technology
+                    my whole life. When I was a kid, I used to open up electronics and try to figure out how they
+                    worked.
+                    That
+                    curiosity is still alive in me today. I love to understand how things work, and it's a big part of
+                    my
+                    current job.</p>
+                <p>I'm a Data Center Engineer at Outbrain, Inc. The job title doesn't really describe what I actually
+                    do.
+                    I'm
+                    more of a Server Engineer, that uses DevOps principles to try to automate all the tasks I'm
+                    responsible
+                    for.
+                    I get to play around with a lot of great tools (mostly open source) such as Chef, Jenkins,
+                    Prometheus,
+                    Grafana, and Ruby/Bash scripting. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>I'm currently learning Full Stack Web Development so I can be a better engineer. Maybe I'll end up
+                    building
+                    my own app one day.</p>
+                <a class="float-right" href="https://www.linkedin.com/in/gerardo-gerry-laracuente-3145a260" target="_blank"><img
+                        src="assets/images/linkedin.jpeg" title="LinkedIn" alt="linkedin-icon"></a>
+            </div>
+        </div>
+    </div>
 
-    <section id="content" class="centered">
-        <h2>About Me</h2>
-        <hr>
-        <img id="about-pic" src="assets/images/gerry_pic.png" alt="about-me-pic">
-        <p>Hello World. My name is Gerardo Laracuente, but everyone calls me Gerry. I've had an interest in technology
-            my whole life. When I was a kid, I used to open up electronics and try to figure out how they worked. That
-            curiosity is still alive in me today. I love to understand how things work, and it's a big part of my
-            current job.</p>
-        <br>
-        <p>I'm a Data Center Engineer at Outbrain, Inc. The job title doesn't really describe what I actually do. I'm
-            more of a Server Engineer, that uses DevOps principles to try to automate all the tasks I'm responsible
-            for.
-            I get to play around with a lot of great tools (mostly open source) such as Chef, Jenkins, Prometheus,
-            Grafana, and Ruby/Bash scripting. </p>
-        <br>
-        <p>I'm currently learning Full Stack Web Development so I can be a better engineer. Maybe I'll end up building
-            my own app one day.</p>
-        <br>
-        <a id="linkedin" href="https://www.linkedin.com/in/gerardo-gerry-laracuente-3145a260" target="_blank"><img src="assets/images/linkedin.jpeg"
-                title="LinkedIn" alt="linkedin-icon"></a>
-    </section>
-
-    <footer>Copyright &copy;</footer>
+    <footer class="footer text-center bg-dark text-white p-3 mt-3 fixed-bottom">
+        Copyright &copy;
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
